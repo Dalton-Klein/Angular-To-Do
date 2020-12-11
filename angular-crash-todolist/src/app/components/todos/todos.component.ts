@@ -8,7 +8,9 @@ import { Todo } from '../../models/Todo'
   templateUrl: './todos.component.html',
   styleUrls: ['./todos.component.css']
 })
+
 export class TodosComponent implements OnInit {
+  
   todos!: Todo[];
 
   constructor(private todoService:TodoService) { }
